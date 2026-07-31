@@ -13,7 +13,30 @@ The system reads and reconciles:
 
 The final output is a canonical, cross-source mapping of part entities, with high-confidence records in `outputs/mapping.json`, uncertain or orphan-like cases in `outputs/low_confidence.json`, and an executive summary in `outputs/summary.json`.
 
-A bonus trail also exists for 3D visualization: a GLB input can be restructured so that mesh nodes are grouped into procedure/step hierarchy using the final mapping as the bridge. In that extension, one mesh or a selected subset of mesh geometry is extracted from the GLB scene and mapped back to the service-step structure, instead of leaving the model as a flat, unorganized scene.
+A bonus trail also exists for 3D visualization: a GLB input can be restructured so that mesh nodes are grouped into a procedure/step hierarchy using the final mapping as the bridge. In that extension, one mesh or a selected subset of mesh geometry is extracted from the GLB scene and mapped back to the service-step structure, instead of leaving the model as a flat, unorganized scene.
+
+## Additional 3D feature added
+A second, complementary feature has been added to the repository for visual grounding of the service workflow.
+
+Instead of only mapping part entities from text-based sources, the project can now also take a `.glb` model as input and infer which mesh nodes correspond to which service step. In this new trail:
+
+- `scripts/run_pipeline.py` acts as the end-to-end GLB grounding entrypoint.
+- it reads a GLB scene, extracts mesh/geometry features, and ranks candidate mesh nodes for each service step from `service_steps.json`;
+- `scripts/gemini_agent.py` optionally refines the final node selection through a Gemini-based self-check loop;
+- if Gemini is unavailable or the API key is missing, the pipeline falls back to the top rule-based candidates so the output is still produced deterministically;
+- thus, rule-based logic proposes, Gemini verifies and refines the genuinely ambiguous cases, a self-critique loop catches and corrects bad answers, and a deterministic fallback guarantees the pipeline never produces an incomplete or broken result even if the LLM call fails;  
+- the produced JSON records per-step `matched_node_indices`, `matched_mesh_names`, confidence, and reasoning;
+- `scripts/restructure_glb.py` then uses the final mapping to build a cleaner scene hierarchy, regrouping nodes under procedure and step nodes while preserving any unmapped geometry under an `Unmapped` bucket.
+
+This means the project now has two linked views of the same maintenance workflow:
+
+1. the original text-and-entity resolution layer, which maps parts to canonical OEM entities and identifies authoritative corrections, and
+2. the GLB grounding layer, which maps service steps to actual 3D mesh geometry for visualization and structured scene understanding.
+
+The new supporting outputs are:
+- `outputs/breather_demo.glb` — sample GLB scene used for demonstration
+- `outputs/breather_demo.json` — one example of mesh-to-step grounding for a specific service action
+- `outputs/restructured_gearbox.glb` — restructured scene with mesh nodes grouped under procedure/step hierarchy
 
 ## What the inputs are
 The main input sources are stored in `data/`:
