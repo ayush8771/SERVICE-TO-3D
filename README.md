@@ -13,6 +13,8 @@ The system reads and reconciles:
 
 The final output is a canonical, cross-source mapping of part entities, with high-confidence records in `outputs/mapping.json`, uncertain or orphan-like cases in `outputs/low_confidence.json`, and an executive summary in `outputs/summary.json`.
 
+A bonus trail also exists for 3D visualization: a GLB input can be restructured so that mesh nodes are grouped into procedure/step hierarchy using the final mapping as the bridge. In that extension, one mesh or a selected subset of mesh geometry is extracted from the GLB scene and mapped back to the service-step structure, instead of leaving the model as a flat, unorganized scene.
+
 ## What the inputs are
 The main input sources are stored in `data/`:
 
@@ -46,6 +48,23 @@ python scripts/04_apply_bulletin.py
 python scripts/05_report.py
 python scripts/06_print_summary.py
 ```
+
+### Bonus 3D GLB re-structuring trail
+A separate GLB helper is included for the visual mapping extension:
+
+```bash
+python scripts/restructure_glb.py <in.glb> <mapping.json> <out.glb>
+```
+
+What it does:
+- takes a flat/chaotic GLB as input,
+- reads the final mapping JSON,
+- maps mesh nodes to step-level groups,
+- renames the mesh nodes to step-aware names,
+- re-parents them under a clean hierarchy such as `Procedure 10 -> Step 10-20 -> <mesh nodes>`,
+- keeps any unmapped geometry under an `Unmapped` bucket so nothing silently disappears.
+
+This is a supporting visualization trail and is separate from the core part-mapping pipeline.
 
 ### Final generated outputs
 - `outputs/parsed_sources.json` — raw extracted mentions from all sources
@@ -122,6 +141,7 @@ The final pipeline is deterministic and uses rule-based extraction, direct code 
 ### External libraries used
 - `pdfplumber` — PDF text/table extraction for the parts catalogue
 - `rapidfuzz` — fuzzy string similarity scoring for uncertain low-confidence orphan checks
+- `pygltflib` — GLB/GLTF scene loading and node re-parenting for the 3D mesh restructuring trail
 
 ### Standard Python libraries used
 - `json`
