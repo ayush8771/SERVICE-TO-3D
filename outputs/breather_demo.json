@@ -1,0 +1,14 @@
+{
+  "extracted_node_index": 45,
+  "extracted_mesh_name": "breather_20_imp",
+  "mapped_to_service_step": "10-10",
+  "step_title": "Drain & remove breather plug",
+  "step_instruction": "Place unit on bench, output flange facing operator. Unscrew the breather/filler plug from the top of the housing (17 mm). Allow residual oil to drip for approx. 10 min. Check the sight glass for metal swarf.  NOTE: sight glass is not fitted on -E variants.",
+  "expected_count_for_step": 1,
+  "all_nodes_mapped_to_this_step": [
+    45
+  ],
+  "confidence": "high",
+  "source": "rule_based_fallback",
+  "reasoning": "Gemini refinement failed/unavailable; used rule-based fallback."
+}

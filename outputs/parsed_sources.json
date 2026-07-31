@@ -1,0 +1,2214 @@
+{
+  "service_steps": [
+    {
+      "source": "service_steps.json",
+      "step_id": "10-10",
+      "title": "Drain & remove breather plug",
+      "raw_text": "Place unit on bench, output flange facing operator. Unscrew the breather/filler plug from the top of the housing (17 mm). Allow residual oil to drip for approx. 10 min. Check the sight glass for metal swarf.  NOTE: sight glass is not fitted on -E variants.",
+      "referenced_codes": [],
+      "qty": "1"
+    },
+    {
+      "source": "service_steps.json",
+      "step_id": "10-20",
+      "title": "Remove front cover flange bolts",
+      "raw_text": "Remove the six M6 hex head bolts on the front cover flange (outer bolt circle) in a criss-cross pattern. Torque on refit: 9.5 Nm (84 lb-in). Do NOT confuse these with the mid-ring bolts -- flange bolts sit on the raised boss.",
+      "referenced_codes": [],
+      "qty": 6
+    },
+    {
+      "source": "service_steps.json",
+      "step_id": "10-30",
+      "title": "Extract locating dowel pins",
+      "raw_text": "Using a pin puller, withdraw all six locating dowel pins from the front cover mating face. Tag each pin with its bore position; pins are matched to their bores from factory honing.",
+      "referenced_codes": [],
+      "qty": null
+    },
+    {
+      "source": "service_steps.json",
+      "step_id": "20-10",
+      "title": "Remove drive-end front bearing cap",
+      "raw_text": "On the drive end (A-side, nearest the input pinion), remove the FRONT bearing retainer cap. Ref. GBX-BC-108. See Fig. 4-2.",
+      "referenced_codes": [
+        "GBX-BC-108"
+      ],
+      "qty": "1"
+    },
+    {
+      "source": "service_steps.json",
+      "step_id": "20-20",
+      "title": "Remove drive-end rear bearing cap",
+      "raw_text": "Rotate the unit and remove the REAR bearing retainer cap on the same (drive) end. Keep shim pack together -- shim thickness sets pinion mesh preload.",
+      "referenced_codes": [],
+      "qty": 1
+    },
+    {
+      "source": "service_steps.json",
+      "step_id": "20-30",
+      "title": "Free the A-side mid-ring bolts",
+      "raw_text": "Slacken and remove both mid-ring retaining bolts on the drive end (mid bolt circle, z-mid row). CAUTION: bolts are grade 8.8 -- do not substitute.",
+      "referenced_codes": [],
+      "qty": null
+    },
+    {
+      "source": "service_steps.json",
+      "step_id": "20-40",
+      "title": "Replace drive-end front oil seal",
+      "raw_text": "Pry out the radial oil seal (Simmering type) from the drive-end front bore. Fit new seal GBX-OS-124-B flush to 0.5 mm below face; lip grease: Klueber GL-261. Old 0-ring must be discarded.",
+      "referenced_codes": [
+        "GBX-OS-124-B"
+      ],
+      "qty": "1"
+    },
+    {
+      "source": "service_steps.json",
+      "step_id": "20-50",
+      "title": "Withdraw input shaft & pinions",
+      "raw_text": "Support the input shaft and withdraw it together with both input pinions toward the drive end. Do not let the pinion teeth strike the case web.",
+      "referenced_codes": [],
+      "qty": 3
+    },
+    {
+      "source": "service_steps.json",
+      "step_id": "20-60",
+      "title": "Remove input circlips & thrust washers",
+      "raw_text": "Remove the internal circlips (DIN 472) and both bronze thrust washers from the upper bores. Circlip pliers A-2 required.",
+      "referenced_codes": [],
+      "qty": null
+    },
+    {
+      "source": "service_steps.json",
+      "step_id": "30-10",
+      "title": "Remove rear ring bolts",
+      "raw_text": "Remove the six hex bolts of the rear bolt ring (rear cover row, opposite the front flange). Refit torque 9,5 Nm. One bolt is fitted with a bonded washer -- note its position.",
+      "referenced_codes": [],
+      "qty": "6"
+    },
+    {
+      "source": "service_steps.json",
+      "step_id": "30-20",
+      "title": "Remove socket cap screws",
+      "raw_text": "Remove all six DIN 912 socket head cap screws (5 mm hex) from the case split line. Refit torque: 13 Nm / 115 lb-in / 132 kpcm.",
+      "referenced_codes": [],
+      "qty": 6
+    },
+    {
+      "source": "service_steps.json",
+      "step_id": "30-30",
+      "title": "Split housing halves",
+      "raw_text": "Using jacking screws in the cast bosses, separate the two housing halves evenly. NEVER insert a screwdriver in the split line. Lift the upper half clear of both layshafts.",
+      "referenced_codes": [],
+      "qty": null
+    },
+    {
+      "source": "service_steps.json",
+      "step_id": "30-40",
+      "title": "Lift out layshaft assemblies",
+      "raw_text": "Lift both layshaft (countershaft) assemblies out of the lower half. Keep A-side and B-side shafts separate; they are NOT interchangeable after run-in.",
+      "referenced_codes": [],
+      "qty": "2"
+    },
+    {
+      "source": "service_steps.json",
+      "step_id": "30-50",
+      "title": "Strip cluster & helical gears",
+      "raw_text": "Press the cluster gear blocks and all helical reduction gears off their shafts. Inspect tooth flanks for pitting (max. allowable: DIN 3979 class 2). Mark gear-to-shaft clocking.",
+      "referenced_codes": [],
+      "qty": 8
+    },
+    {
+      "source": "service_steps.json",
+      "step_id": "30-60",
+      "title": "Replace needle bearings",
+      "raw_text": "Drive out all six needle roller bearing cages from the case webs using drift T-4408 and press in new cages to a depth of 2.5 mm. Lube with assembly paste before fitting.",
+      "referenced_codes": [],
+      "qty": null
+    },
+    {
+      "source": "service_steps.json",
+      "step_id": "30-70",
+      "title": "Renew snap rings, shims & sleeves",
+      "raw_text": "Renew both external snap rings and the adjusting shim, and check both distance sleeves for scoring (replace if > 0.05 mm). Shim pack sets end-float 0.10-0.25 mm.",
+      "referenced_codes": [],
+      "qty": "5"
+    },
+    {
+      "source": "service_steps.json",
+      "step_id": "40-10",
+      "title": "Remove coupling flange & key",
+      "raw_text": "Lock the output shaft and remove the coupling flange from its taper. Extract the parallel shaft keys (DIN 6885) from both keyways -- use key puller, do not lever against the seal face.",
+      "referenced_codes": [],
+      "qty": 3
+    },
+    {
+      "source": "service_steps.json",
+      "step_id": "40-20",
+      "title": "Withdraw output shaft & spur gear",
+      "raw_text": "Withdraw the output shaft together with both output spur gears toward the B-side. Support the gear rim; combined mass approx. 6,2 kg.",
+      "referenced_codes": [],
+      "qty": null
+    },
+    {
+      "source": "service_steps.json",
+      "step_id": "40-30",
+      "title": "Replace B-side bearings & seals",
+      "raw_text": "On the output end, extract both cylindrical roller bearings and both radial oil seals, then refit the output-end bearing caps (front and rear) with new gaskets. Heat bearings to 80 degC max. for fitting; never use open flame.",
+      "referenced_codes": [],
+      "qty": "6"
+    }
+  ],
+  "parts_xref": [
+    {
+      "source": "parts_xref.csv",
+      "oem_pn": "GBX-HXB-122",
+      "description_family": "hex_bolt_cover",
+      "supplier": "NORMTEIL AG",
+      "supplier_pn": "NRM-933-M6x16-8.8",
+      "din_ref": "DIN 933",
+      "status_note": "current"
+    },
+    {
+      "source": "parts_xref.csv",
+      "oem_pn": "GBX-HXB-122",
+      "description_family": "hex_bolt_cover",
+      "supplier": "NORMTEIL AG",
+      "supplier_pn": "NRM-601-M6-OBS",
+      "din_ref": "DIN 601",
+      "status_note": "OBSOLETE 2011 - do not order"
+    },
+    {
+      "source": "parts_xref.csv",
+      "oem_pn": "GBX-SCS-121",
+      "description_family": "cap_screw",
+      "supplier": "NORMTEIL AG",
+      "supplier_pn": "NRM-912-M5x20-12.9",
+      "din_ref": "DIN 912",
+      "status_note": "current"
+    },
+    {
+      "source": "parts_xref.csv",
+      "oem_pn": "GBX-DP-130",
+      "description_family": "dowel_pin",
+      "supplier": "NORMTEIL AG",
+      "supplier_pn": "NRM-6325-4m6x12",
+      "din_ref": "DIN 7",
+      "status_note": "current"
+    },
+    {
+      "source": "parts_xref.csv",
+      "oem_pn": "GBX-FW-112",
+      "description_family": "flat_washer",
+      "supplier": "NORMTEIL AG",
+      "supplier_pn": "NRM-125-A5.3",
+      "din_ref": "DIN 125",
+      "status_note": "current"
+    },
+    {
+      "source": "parts_xref.csv",
+      "oem_pn": "GBX-CL-111",
+      "description_family": "circlip",
+      "supplier": "NORMTEIL AG",
+      "supplier_pn": "NRM-472-I22",
+      "din_ref": "DIN 472",
+      "status_note": "current"
+    },
+    {
+      "source": "parts_xref.csv",
+      "oem_pn": "GBX-SR-110",
+      "description_family": "snap_ring",
+      "supplier": "NORMTEIL AG",
+      "supplier_pn": "NRM-471-A20",
+      "din_ref": "DIN 471",
+      "status_note": "current"
+    },
+    {
+      "source": "parts_xref.csv",
+      "oem_pn": "GBX-KEY-113",
+      "description_family": "shaft_key",
+      "supplier": "NORMTEIL AG",
+      "supplier_pn": "NRM-6885-A5x5x14",
+      "din_ref": "DIN 6885",
+      "status_note": "current"
+    },
+    {
+      "source": "parts_xref.csv",
+      "oem_pn": "GBX-BRG-123",
+      "description_family": "roller_bearing",
+      "supplier": "KUGELWERKE",
+      "supplier_pn": "KGW-NU204-E",
+      "din_ref": "DIN 5412",
+      "status_note": "current"
+    },
+    {
+      "source": "parts_xref.csv",
+      "oem_pn": "GBX-NB-129",
+      "description_family": "needle_bearing",
+      "supplier": "KUGELWERKE",
+      "supplier_pn": "KGW-HK1210",
+      "din_ref": "DIN 618",
+      "status_note": "current"
+    },
+    {
+      "source": "parts_xref.csv",
+      "oem_pn": "GBX-OS-124",
+      "description_family": "oil_seal",
+      "supplier": "DICHTTECHNIK",
+      "supplier_pn": "DFT-BA-20x35x7-NBR",
+      "din_ref": "DIN 3760",
+      "status_note": "superseded by -B"
+    },
+    {
+      "source": "parts_xref.csv",
+      "oem_pn": "GBX-OS-124-B",
+      "description_family": "oil_seal",
+      "supplier": "DICHTTECHNIK",
+      "supplier_pn": "DFT-BA-20x35x7-FKM",
+      "din_ref": "DIN 3760",
+      "status_note": "current, FKM lip"
+    },
+    {
+      "source": "parts_xref.csv",
+      "oem_pn": "GBX-TW-109",
+      "description_family": "thrust_washer",
+      "supplier": "GLEITLAGER GmbH",
+      "supplier_pn": "GLT-AS2035-CuSn8",
+      "din_ref": "",
+      "status_note": "current"
+    },
+    {
+      "source": "parts_xref.csv",
+      "oem_pn": "GBX-SHM-118",
+      "description_family": "shim_spacer",
+      "supplier": "GLEITLAGER GmbH",
+      "supplier_pn": "GLT-PS20-015",
+      "din_ref": "",
+      "status_note": "thickness on demand"
+    },
+    {
+      "source": "parts_xref.csv",
+      "oem_pn": "GBX-DS-125",
+      "description_family": "sleeve_spacer",
+      "supplier": "GLEITLAGER GmbH",
+      "supplier_pn": "GLT-DH20-28",
+      "din_ref": "",
+      "status_note": "current"
+    },
+    {
+      "source": "parts_xref.csv",
+      "oem_pn": "GBX-BRP-120",
+      "description_family": "breather_plug",
+      "supplier": "ARMATURA KG",
+      "supplier_pn": "ARM-EV-G14",
+      "din_ref": "",
+      "status_note": "current"
+    },
+    {
+      "source": "parts_xref.csv",
+      "oem_pn": "GBX-SG-131",
+      "description_family": "sight_glass",
+      "supplier": "ARMATURA KG",
+      "supplier_pn": "N/A",
+      "din_ref": "",
+      "status_note": "NSN discontinued, not fitted on -E"
+    },
+    {
+      "source": "parts_xref.csv",
+      "oem_pn": "GBX-GI-106",
+      "description_family": "gear_idler",
+      "supplier": "works",
+      "supplier_pn": "in-house",
+      "din_ref": "",
+      "status_note": "machined in-house"
+    }
+  ],
+  "inspection_log": [
+    {
+      "source": "inspection_log.csv",
+      "part_no": "GBX-HXB-122",
+      "feature": "thread M6x1",
+      "disposition": "PASS",
+      "raw_date": "2019-03-12",
+      "is_junk": false
+    },
+    {
+      "source": "inspection_log.csv",
+      "part_no": "GBX-HXB-122",
+      "feature": "head A/F",
+      "disposition": "PASS",
+      "raw_date": "12/03/2019",
+      "is_junk": false
+    },
+    {
+      "source": "inspection_log.csv",
+      "part_no": "GBX-DP-130",
+      "feature": "dia h6",
+      "disposition": "PASS",
+      "raw_date": "2019-03-12",
+      "is_junk": false
+    },
+    {
+      "source": "inspection_log.csv",
+      "part_no": "GBX-OS-124",
+      "feature": "bore fit",
+      "disposition": "FAIL-oversize",
+      "raw_date": "2019-03-13",
+      "is_junk": false
+    },
+    {
+      "source": "inspection_log.csv",
+      "part_no": "GBX-BRG-123",
+      "feature": "radial play",
+      "disposition": "NOT MEASURED",
+      "raw_date": "13.03.2019",
+      "is_junk": false
+    },
+    {
+      "source": "inspection_log.csv",
+      "part_no": "GBX-OS-124-B",
+      "feature": "lip wear",
+      "disposition": "REPLACE",
+      "raw_date": "2019-03-13",
+      "is_junk": false
+    },
+    {
+      "source": "inspection_log.csv",
+      "part_no": "GBX-GH-103",
+      "feature": "flank pitting",
+      "disposition": "REPLACE",
+      "raw_date": "2019-03-14",
+      "is_junk": false
+    },
+    {
+      "source": "inspection_log.csv",
+      "part_no": "GBX-NB-129",
+      "feature": "cage wear",
+      "disposition": "REPLACE",
+      "raw_date": "2019-03-14",
+      "is_junk": false
+    },
+    {
+      "source": "inspection_log.csv",
+      "part_no": "GBX-ZZ-999",
+      "feature": "n/a",
+      "disposition": "UNKNOWN PN",
+      "raw_date": "2019-03-14",
+      "is_junk": true
+    },
+    {
+      "source": "inspection_log.csv",
+      "part_no": "GBX-SH-114",
+      "feature": "journal dia",
+      "disposition": "PASS",
+      "raw_date": "2019-03-15",
+      "is_junk": false
+    },
+    {
+      "source": "inspection_log.csv",
+      "part_no": "GBX-SCS-121",
+      "feature": "preload",
+      "disposition": "PASS",
+      "raw_date": "2019-03-15",
+      "is_junk": false
+    },
+    {
+      "source": "inspection_log.csv",
+      "part_no": "GBX-SHM-118",
+      "feature": "thickness",
+      "disposition": "PASS",
+      "raw_date": "2019-03-15",
+      "is_junk": false
+    },
+    {
+      "source": "inspection_log.csv",
+      "part_no": "GBX-BC-108",
+      "feature": "flatness",
+      "disposition": "PASS",
+      "raw_date": "2019-03-16",
+      "is_junk": false
+    },
+    {
+      "source": "inspection_log.csv",
+      "part_no": "GBX-XX-000",
+      "feature": "corrosion",
+      "disposition": "VOID ROW",
+      "raw_date": "2019-03-16",
+      "is_junk": true
+    }
+  ],
+  "work_order": [
+    {
+      "source": "work_order_WO-7741.txt",
+      "line_no": "1",
+      "supplier_pn": "DFT-BA-20x35x7-FKM",
+      "qty": "1",
+      "disposition_text": "fitted, drive-end front bore        [20-40]"
+    },
+    {
+      "source": "work_order_WO-7741.txt",
+      "line_no": "2",
+      "supplier_pn": "KGW-HK1210",
+      "qty": "6",
+      "disposition_text": "all cage positions renewed          [30-60]"
+    },
+    {
+      "source": "work_order_WO-7741.txt",
+      "line_no": "3",
+      "supplier_pn": "NRM-472-I22",
+      "qty": "2",
+      "disposition_text": "renewed on reassembly               [20-60]"
+    },
+    {
+      "source": "work_order_WO-7741.txt",
+      "line_no": "4",
+      "supplier_pn": "GLT-AS2035-CuSn8",
+      "qty": "2",
+      "disposition_text": "renewed on reassembly               [20-60]"
+    },
+    {
+      "source": "work_order_WO-7741.txt",
+      "line_no": "5",
+      "supplier_pn": "NRM-471-A20",
+      "qty": "2",
+      "disposition_text": "renewed                             [30-70]"
+    },
+    {
+      "source": "work_order_WO-7741.txt",
+      "line_no": "6",
+      "supplier_pn": "GLT-PS20-015",
+      "qty": "1",
+      "disposition_text": "end-float shim, 0.15 mm selected    [30-70]"
+    },
+    {
+      "source": "work_order_WO-7741.txt",
+      "line_no": "7",
+      "supplier_pn": "GLT-DH20-28",
+      "qty": "2",
+      "disposition_text": "inspected, re-used -- qty 0 billed  [30-70]"
+    },
+    {
+      "source": "work_order_WO-7741.txt",
+      "line_no": "9",
+      "supplier_pn": "NRM-933-M6x16-8.8",
+      "qty": "15",
+      "disposition_text": "renewed where disturbed             [10-20, 20-30, 30-10]"
+    },
+    {
+      "source": "work_order_WO-7741.txt",
+      "line_no": "10",
+      "supplier_pn": "NRM-912-M5x20-12.9",
+      "qty": "6",
+      "disposition_text": "renewed                             [30-20]"
+    }
+  ],
+  "parts_catalogue": [
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 1,
+      "row": [
+        "Document",
+        "IPC-GBX-450E, revision B"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 1,
+      "row": [
+        "Manufacturer",
+        "ADLOID GEARWORKS \u2014 Industrial Drives Division"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 1,
+      "row": [
+        "Applies to",
+        "GBX-450E, all serial numbers"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 1,
+      "row": [
+        "Companion doc",
+        "Workshop Manual WM-GBX-450E rev.C; Service Bulletin SB-2019-04"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 1,
+      "row": [
+        "Total line items",
+        "95 installed parts across 31 part families"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 1,
+      "row": [
+        "Units",
+        "millimetres unless marked * (metric supplement, in cm)"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 1,
+      "row": [
+        "Status",
+        "UNCONTROLLED COPY when printed \u2014 verify revision before ordering"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 1,
+      "row": [
+        "Rev",
+        "Date",
+        "Description",
+        "By"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 1,
+      "row": [
+        "A",
+        "1998-06-01",
+        "First issue (paper)",
+        "Eng."
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 1,
+      "row": [
+        "B",
+        "2004-11-02",
+        "OCR digitisation, procedures 10-40",
+        "K.M."
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 1,
+      "row": [
+        "C",
+        "2019-04-05",
+        "Torque + qty updates, ref SB-2019-04",
+        "Doc."
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 1,
+      "row": [
+        "NOTE",
+        "Quantities are per the 1998 stock list and may lag the as-built unit. Where this catalogue and Service Bulletin\nSB-2019-04 disagree, the bulletin governs. Cross-reference supplier part numbers via parts_xref.csv."
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 1,
+      "referenced_codes": [
+        "GBX-450E",
+        "GBX-450E",
+        "GBX-450E",
+        "GBX-450E",
+        "GBX-450E",
+        "GBX-450E"
+      ],
+      "raw_text_snippet": "IPC-GBX-450E rev.B\nILLUSTRATED PARTS CATALOGUE\nType GBX-450E Two-Stage Reduction Gearbox\nDocument IPC-GBX-450E, revision B\nManufacturer ADLOID GEARWORKS \u2014 Industrial Drives Division\nApplies to GBX-450E, all serial numbers\nCompanion doc Workshop Manual WM-GBX-450E rev.C; Service Bulletin SB-2019-04\nT"
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 2,
+      "referenced_codes": [
+        "GBX-450E",
+        "GBX-450E"
+      ],
+      "raw_text_snippet": "IPC-GBX-450E rev.B\nSECTION 1 \u2014 GENERAL ASSEMBLY\nFig 1-0 \u2014 Complete unit, general assembly view\nADLOID GEARWORKS \u00b7 Industrial Drives Division IPC-GBX-450E rev.B Page 2"
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 3,
+      "referenced_codes": [
+        "GBX-450E",
+        "GBX-450E"
+      ],
+      "raw_text_snippet": "IPC-GBX-450E rev.B\nFig 1-1 \u2014 Exploded view by sub-assembly (A0 Housing \u2026 A5 Fasteners)\nADLOID GEARWORKS \u00b7 Industrial Drives Division IPC-GBX-450E rev.B Page 3"
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 4,
+      "row": [
+        "Ite\nm",
+        "Part No.",
+        "Description",
+        "Sub-asm",
+        "Qty",
+        "Material"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 4,
+      "row": [
+        "1",
+        "GBX-BH-128",
+        "Bearing Housing Boss",
+        "A0-Housing",
+        "2",
+        "Cast iron"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 4,
+      "row": [
+        "2",
+        "GBX-BRP-120",
+        "Breather / Filler Plug",
+        "A0-Housing",
+        "1",
+        "Brass CW614N"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 4,
+      "row": [
+        "3",
+        "GBX-HSG-100",
+        "Gearbox Housing Half",
+        "A0-Housing",
+        "2",
+        "Cast iron GG-25"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 4,
+      "row": [
+        "4",
+        "GBX-MF-126",
+        "Mounting Flange",
+        "A0-Housing",
+        "2",
+        "EN-GJS-500"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 4,
+      "row": [
+        "5",
+        "GBX-SRP-119",
+        "Seal Retainer Plate",
+        "A0-Housing",
+        "2",
+        "S235JR"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 4,
+      "row": [
+        "6",
+        "GBX-EC-127",
+        "Shaft End Cap",
+        "A0-Housing",
+        "2",
+        "EN-GJL-200"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 4,
+      "row": [
+        "7",
+        "GBX-GP-104",
+        "Input Pinion",
+        "A1-Input",
+        "2",
+        "20MnCr5, ground"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 4,
+      "row": [
+        "8",
+        "GBX-ISH-116",
+        "Input Shaft",
+        "A1-Input",
+        "1",
+        "20MnCr5"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 4,
+      "row": [
+        "9",
+        "GBX-CF-117",
+        "Coupling Flange",
+        "A2-Output",
+        "1",
+        "C45"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 4,
+      "row": [
+        "10",
+        "GBX-OSH-115",
+        "Output Shaft",
+        "A2-Output",
+        "1",
+        "42CrMo4, hardened"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 4,
+      "row": [
+        "11",
+        "GBX-GLG-102",
+        "Output Spur Gear",
+        "A2-Output",
+        "2",
+        "16MnCr5, carburized"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 4,
+      "row": [
+        "12",
+        "GBX-GB-105",
+        "Bevel Gear",
+        "A3-Layshaft",
+        "2",
+        "17NiCrMo6-4"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 4,
+      "row": [
+        "13",
+        "GBX-GC-107",
+        "Cluster Gear",
+        "A3-Layshaft",
+        "2",
+        "18CrNiMo7-6"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 4,
+      "row": [
+        "14",
+        "GBX-GH-103",
+        "Helical Reduction Gear",
+        "A3-Layshaft",
+        "6",
+        "16MnCr5, carburized"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 4,
+      "row": [
+        "15",
+        "GBX-GI-106",
+        "Idler Gear",
+        "A3-Layshaft",
+        "2",
+        "16MnCr5"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 4,
+      "row": [
+        "16",
+        "GBX-GR-101",
+        "Internal Ring Gear",
+        "A3-Layshaft",
+        "2",
+        "18CrNiMo7-6, case-hardened"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 4,
+      "row": [
+        "17",
+        "GBX-SH-114",
+        "Layshaft / Countershaft",
+        "A3-Layshaft",
+        "2",
+        "42CrMo4, hardened"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 4,
+      "row": [
+        "18",
+        "GBX-BC-108",
+        "Bearing Retainer Cap",
+        "A4-Bearings",
+        "4",
+        "EN-GJL-250"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 4,
+      "row": [
+        "19",
+        "GBX-BRG-123",
+        "Cylindrical Roller Bearing",
+        "A4-Bearings",
+        "4",
+        "Bearing steel 100Cr6"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 4,
+      "row": [
+        "20",
+        "GBX-DS-125",
+        "Distance Sleeve",
+        "A4-Bearings",
+        "2",
+        "St 52-3"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 4,
+      "row": [
+        "21",
+        "GBX-NB-129",
+        "Needle Roller Bearing",
+        "A4-Bearings",
+        "6",
+        "100Cr6"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 4,
+      "row": [
+        "22",
+        "GBX-OS-124",
+        "Radial Oil Seal (Simmerring)",
+        "A4-Bearings",
+        "4",
+        "NBR / steel"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 4,
+      "row": [
+        "23",
+        "GBX-TW-109",
+        "Thrust Washer",
+        "A4-Bearings",
+        "2",
+        "CuSn8 bronze"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 4,
+      "row": [
+        "24",
+        "GBX-SHM-118",
+        "Adjusting Shim / Spacer",
+        "A5-Fasteners",
+        "1",
+        "Shim steel 1.4310"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 4,
+      "row": [
+        "25",
+        "GBX-HXB-122",
+        "Cover Hex Bolt (DIN 933)",
+        "A5-Fasteners",
+        "16",
+        "Grade 8.8, zinc"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 4,
+      "row": [
+        "26",
+        "GBX-SR-110",
+        "External Snap Ring",
+        "A5-Fasteners",
+        "2",
+        "Spring steel C67S"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 4,
+      "row": [
+        "27",
+        "GBX-FW-112",
+        "Flat Washer (DIN 125)",
+        "A5-Fasteners",
+        "2",
+        "A2-70 stainless"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 4,
+      "row": [
+        "28",
+        "GBX-CL-111",
+        "Internal Circlip (DIN 472)",
+        "A5-Fasteners",
+        "2",
+        "Spring steel"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 4,
+      "row": [
+        "29",
+        "GBX-DP-130",
+        "Locating Dowel Pin (DIN 6325)",
+        "A5-Fasteners",
+        "6",
+        "Hardened steel"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 4,
+      "row": [
+        "30",
+        "GBX-KEY-113",
+        "Parallel Shaft Key (DIN 6885)",
+        "A5-Fasteners",
+        "2",
+        "C45K"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 4,
+      "row": [
+        "31",
+        "GBX-SCS-121",
+        "Socket Cap Screw (DIN 912)",
+        "A5-Fasteners",
+        "6",
+        "Grade 12.9"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 4,
+      "row": [
+        "\u2014",
+        "GBX-SG-131",
+        "Oil Level Sight Glass",
+        "A0-Housing",
+        "0",
+        "NOT FITTED (-E)"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 4,
+      "referenced_codes": [
+        "GBX-450E",
+        "GBX-BH-128",
+        "GBX-BRP-120",
+        "GBX-HSG-100",
+        "GBX-MF-126",
+        "GBX-SRP-119",
+        "GBX-EC-127",
+        "GBX-GP-104",
+        "GBX-ISH-116",
+        "GBX-CF-117",
+        "GBX-OSH-115",
+        "GBX-GLG-102",
+        "GBX-GB-105",
+        "GBX-GC-107",
+        "GBX-GH-103",
+        "GBX-GI-106",
+        "GBX-GR-101",
+        "GBX-SH-114",
+        "GBX-BC-108",
+        "GBX-BRG-123",
+        "GBX-DS-125",
+        "GBX-NB-129",
+        "GBX-OS-124",
+        "GBX-TW-109",
+        "GBX-SHM-118",
+        "GBX-HXB-122",
+        "GBX-SR-110",
+        "GBX-FW-112",
+        "GBX-CL-111",
+        "GBX-DP-130",
+        "GBX-KEY-113",
+        "GBX-SCS-121",
+        "GBX-SG-131",
+        "GBX-450E"
+      ],
+      "raw_text_snippet": "IPC-GBX-450E rev.B\nSECTION 2 \u2014 BILL OF MATERIALS (SUMMARY)\nIte\nPart No. Description Sub-asm Qty Material\nm\n1 GBX-BH-128 Bearing Housing Boss A0-Housing 2 Cast iron\n2 GBX-BRP-120 Breather / Filler Plug A0-Housing 1 Brass CW614N\n3 GBX-HSG-100 Gearbox Housing Half A0-Housing 2 Cast iron GG-25\n4 GBX-MF-"
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 5,
+      "row": [
+        "Part number",
+        "GBX-BH-128",
+        "Category",
+        "structural"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 5,
+      "row": [
+        "Qty / assy",
+        "2",
+        "Sub-asm",
+        "A0-Housing"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 5,
+      "row": [
+        "Material",
+        "Cast iron",
+        "Envelope",
+        "4.26 \u00d7 4.38 \u00d7 0.06 mm"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 5,
+      "row": [
+        "Part number",
+        "GBX-BRP-120",
+        "Category",
+        "fastener"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 5,
+      "row": [
+        "Qty / assy",
+        "1",
+        "Sub-asm",
+        "A0-Housing"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 5,
+      "row": [
+        "Material",
+        "Brass CW614N",
+        "Envelope",
+        "1.25 \u00d7 3.00 \u00d7 1.37 mm"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 5,
+      "referenced_codes": [
+        "GBX-450E",
+        "GBX-BH-128",
+        "GBX-BH-128",
+        "GBX-BRP-120",
+        "GBX-BRP-120",
+        "GBX-450E"
+      ],
+      "raw_text_snippet": "IPC-GBX-450E rev.B\nSECTION 3 \u2014 DETAILED PART PLATES\n\u2014 Sub-assembly A0-Housing \u2014\nItem 1 Bearing Housing Boss GBX-BH-128\nPart number GBX-BH-128 Category structural\nQty / assy 2 Sub-asm A0-Housing\nMaterial Cast iron Envelope 4.26 \u00d7 4.38 \u00d7 0.06 mm\nItem 2 Breather / Filler Plug GBX-BRP-120\nPHOTO NOT AVAI"
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 6,
+      "row": [
+        "Part number",
+        "GBX-HSG-100",
+        "Category",
+        "structural"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 6,
+      "row": [
+        "Qty / assy",
+        "2",
+        "Sub-asm",
+        "A0-Housing"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 6,
+      "row": [
+        "Material",
+        "Cast iron GG-25",
+        "Envelope",
+        "1.37 \u00d7 1.37 \u00d7 14.85 mm"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 6,
+      "row": [
+        "Part number",
+        "GBX-MF-126",
+        "Category",
+        "structural"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 6,
+      "row": [
+        "Qty / assy",
+        "2",
+        "Sub-asm",
+        "A0-Housing"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 6,
+      "row": [
+        "Material",
+        "EN-GJS-500",
+        "Envelope",
+        "4.50 \u00d7 4.50 \u00d7 0.62 mm"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 6,
+      "referenced_codes": [
+        "GBX-450E",
+        "GBX-HSG-100",
+        "GBX-HSG-100",
+        "GBX-MF-126",
+        "GBX-MF-126",
+        "GBX-450E"
+      ],
+      "raw_text_snippet": "IPC-GBX-450E rev.B\nItem 3 Gearbox Housing Half GBX-HSG-100\nPart number GBX-HSG-100 Category structural\nQty / assy 2 Sub-asm A0-Housing\nMaterial Cast iron GG-25 Envelope 1.37 \u00d7 1.37 \u00d7 14.85 mm\nItem 4 Mounting Flange GBX-MF-126\nPart number GBX-MF-126 Category structural\nQty / assy 2 Sub-asm A0-Housing"
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 7,
+      "row": [
+        "Part number",
+        "GBX-SRP-119",
+        "Category",
+        "structural"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 7,
+      "row": [
+        "Qty / assy",
+        "2",
+        "Sub-asm",
+        "A0-Housing"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 7,
+      "row": [
+        "Material",
+        "S235JR",
+        "Envelope",
+        "2.99 \u00d7 0.79 \u00d7 3.00 mm"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 7,
+      "row": [
+        "Part number",
+        "GBX-EC-127",
+        "Category",
+        "structural"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 7,
+      "row": [
+        "Qty / assy",
+        "2",
+        "Sub-asm",
+        "A0-Housing"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 7,
+      "row": [
+        "Material",
+        "EN-GJL-200",
+        "Envelope",
+        "1.62 \u00d7 1.62 \u00d7 4.51 mm"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 7,
+      "referenced_codes": [
+        "GBX-450E",
+        "GBX-SRP-119",
+        "GBX-SRP-119",
+        "GBX-EC-127",
+        "GBX-EC-127",
+        "GBX-450E"
+      ],
+      "raw_text_snippet": "IPC-GBX-450E rev.B\nItem 5 Seal Retainer Plate GBX-SRP-119\nPart number GBX-SRP-119 Category structural\nQty / assy 2 Sub-asm A0-Housing\nMaterial S235JR Envelope 2.99 \u00d7 0.79 \u00d7 3.00 mm\nItem 6 Shaft End Cap GBX-EC-127\nPart number GBX-EC-127 Category structural\nQty / assy 2 Sub-asm A0-Housing\nMaterial EN-"
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 8,
+      "row": [
+        "Part number",
+        "GBX-GP-104",
+        "Category",
+        "gear"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 8,
+      "row": [
+        "Qty / assy",
+        "2",
+        "Sub-asm",
+        "A1-Input"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 8,
+      "row": [
+        "Material",
+        "20MnCr5, ground",
+        "Envelope",
+        "5.00 \u00d7 5.00 \u00d7 1.68 mm"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 8,
+      "row": [
+        "Part number",
+        "GBX-ISH-116",
+        "Category",
+        "shaft"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 8,
+      "row": [
+        "Qty / assy",
+        "1",
+        "Sub-asm",
+        "A1-Input"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 8,
+      "row": [
+        "Material",
+        "20MnCr5",
+        "Envelope",
+        "1.25 \u00d7 1.36 \u00d7 6.91 mm"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 8,
+      "referenced_codes": [
+        "GBX-450E",
+        "GBX-GP-104",
+        "GBX-GP-104",
+        "GBX-ISH-116",
+        "GBX-ISH-116",
+        "GBX-450E"
+      ],
+      "raw_text_snippet": "IPC-GBX-450E rev.B\n\u2014 Sub-assembly A1-Input \u2014\nItem 7 Input Pinion GBX-GP-104\nPart number GBX-GP-104 Category gear\nQty / assy 2 Sub-asm A1-Input\nMaterial 20MnCr5, ground Envelope 5.00 \u00d7 5.00 \u00d7 1.68 mm\nItem 8 Input Shaft GBX-ISH-116\nPart number GBX-ISH-116 Category shaft\nQty / assy 1 Sub-asm A1-Input\nM"
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 9,
+      "row": [
+        "Part number",
+        "GBX-CF-117",
+        "Category",
+        "structural"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 9,
+      "row": [
+        "Qty / assy",
+        "1",
+        "Sub-asm",
+        "A2-Output"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 9,
+      "row": [
+        "Material",
+        "C45",
+        "Envelope",
+        "2.20 \u00d7 2.20 \u00d7 3.92 mm"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 9,
+      "row": [
+        "Part number",
+        "GBX-OSH-115",
+        "Category",
+        "shaft"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 9,
+      "row": [
+        "Qty / assy",
+        "1",
+        "Sub-asm",
+        "A2-Output"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 9,
+      "row": [
+        "Material",
+        "42CrMo4, hardened",
+        "Envelope",
+        "0.23 \u00d7 0.23 \u00d7 1.05 cm *"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 9,
+      "referenced_codes": [
+        "GBX-450E",
+        "GBX-CF-117",
+        "GBX-CF-117",
+        "GBX-OSH-115",
+        "GBX-OSH-115",
+        "GBX-450E"
+      ],
+      "raw_text_snippet": "IPC-GBX-450E rev.B\n\u2014 Sub-assembly A2-Output \u2014\nItem 9 Coupling Flange GBX-CF-117\nPart number GBX-CF-117 Category structural\nQty / assy 1 Sub-asm A2-Output\nMaterial C45 Envelope 2.20 \u00d7 2.20 \u00d7 3.92 mm\nItem 10 Output Shaft GBX-OSH-115\nPart number GBX-OSH-115 Category shaft\nQty / assy 1 Sub-asm A2-Output"
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 10,
+      "row": [
+        "Part number",
+        "GBX-GLG-102",
+        "Category",
+        "gear"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 10,
+      "row": [
+        "Qty / assy",
+        "2",
+        "Sub-asm",
+        "A2-Output"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 10,
+      "row": [
+        "Material",
+        "16MnCr5, carburized",
+        "Envelope",
+        "2.44 \u00d7 2.44 \u00d7 0.75 mm"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 10,
+      "row": [
+        "Part number",
+        "GBX-GB-105",
+        "Category",
+        "gear"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 10,
+      "row": [
+        "Qty / assy",
+        "2",
+        "Sub-asm",
+        "A3-Layshaft"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 10,
+      "row": [
+        "Material",
+        "17NiCrMo6-4",
+        "Envelope",
+        "4.71 \u00d7 3.89 \u00d7 1.35 mm"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 10,
+      "referenced_codes": [
+        "GBX-450E",
+        "GBX-GLG-102",
+        "GBX-GLG-102",
+        "GBX-GB-105",
+        "GBX-GB-105",
+        "GBX-450E"
+      ],
+      "raw_text_snippet": "IPC-GBX-450E rev.B\nItem 11 Output Spur Gear GBX-GLG-102\nPart number GBX-GLG-102 Category gear\nQty / assy 2 Sub-asm A2-Output\nMaterial 16MnCr5, carburized Envelope 2.44 \u00d7 2.44 \u00d7 0.75 mm\n\u2014 Sub-assembly A3-Layshaft \u2014\nItem 12 Bevel Gear GBX-GB-105\nPart number GBX-GB-105 Category gear\nQty / assy 2 Sub-as"
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 11,
+      "row": [
+        "Part number",
+        "GBX-GC-107",
+        "Category",
+        "gear"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 11,
+      "row": [
+        "Qty / assy",
+        "2",
+        "Sub-asm",
+        "A3-Layshaft"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 11,
+      "row": [
+        "Material",
+        "18CrNiMo7-6",
+        "Envelope",
+        "1.00 \u00d7 1.15 \u00d7 6.44 mm"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 11,
+      "row": [
+        "Part number",
+        "GBX-GH-103",
+        "Category",
+        "gear"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 11,
+      "row": [
+        "Qty / assy",
+        "6",
+        "Sub-asm",
+        "A3-Layshaft"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 11,
+      "row": [
+        "Material",
+        "16MnCr5, carburized",
+        "Envelope",
+        "3.00 \u00d7 3.00 \u00d7 0.78 mm"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 11,
+      "referenced_codes": [
+        "GBX-450E",
+        "GBX-GC-107",
+        "GBX-GC-107",
+        "GBX-GH-103",
+        "GBX-GH-103",
+        "GBX-450E"
+      ],
+      "raw_text_snippet": "IPC-GBX-450E rev.B\nItem 13 Cluster Gear GBX-GC-107\nPart number GBX-GC-107 Category gear\nQty / assy 2 Sub-asm A3-Layshaft\nMaterial 18CrNiMo7-6 Envelope 1.00 \u00d7 1.15 \u00d7 6.44 mm\nItem 14 Helical Reduction Gear GBX-GH-103\nPart number GBX-GH-103 Category gear\nQty / assy 6 Sub-asm A3-Layshaft\nMaterial 16MnCr"
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 12,
+      "row": [
+        "Part number",
+        "GBX-GI-106",
+        "Category",
+        "gear"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 12,
+      "row": [
+        "Qty / assy",
+        "2",
+        "Sub-asm",
+        "A3-Layshaft"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 12,
+      "row": [
+        "Material",
+        "16MnCr5",
+        "Envelope",
+        "4.61 \u00d7 5.44 \u00d7 2.48 mm"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 12,
+      "row": [
+        "Part number",
+        "GBX-GR-101",
+        "Category",
+        "gear"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 12,
+      "row": [
+        "Qty / assy",
+        "2",
+        "Sub-asm",
+        "A3-Layshaft"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 12,
+      "row": [
+        "Material",
+        "18CrNiMo7-6,\ncase-hardened",
+        "Envelope",
+        "2.06 \u00d7 2.06 \u00d7 0.60 mm"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 12,
+      "referenced_codes": [
+        "GBX-450E",
+        "GBX-GI-106",
+        "GBX-GI-106",
+        "GBX-GR-101",
+        "GBX-GR-101",
+        "GBX-450E"
+      ],
+      "raw_text_snippet": "IPC-GBX-450E rev.B\nItem 15 Idler Gear GBX-GI-106\nPart number GBX-GI-106 Category gear\nQty / assy 2 Sub-asm A3-Layshaft\nMaterial 16MnCr5 Envelope 4.61 \u00d7 5.44 \u00d7 2.48 mm\nItem 16 Internal Ring Gear GBX-GR-101\nPart number GBX-GR-101 Category gear\nQty / assy 2 Sub-asm A3-Layshaft\n18CrNiMo7-6,\nMaterial Env"
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 13,
+      "row": [
+        "Part number",
+        "GBX-SH-114",
+        "Category",
+        "shaft"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 13,
+      "row": [
+        "Qty / assy",
+        "2",
+        "Sub-asm",
+        "A3-Layshaft"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 13,
+      "row": [
+        "Material",
+        "42CrMo4, hardened",
+        "Envelope",
+        "0.91 \u00d7 0.91 \u00d7 0.11 cm *"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 13,
+      "row": [
+        "Part number",
+        "GBX-BC-108",
+        "Category",
+        "bearing"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 13,
+      "row": [
+        "Qty / assy",
+        "4",
+        "Sub-asm",
+        "A4-Bearings"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 13,
+      "row": [
+        "Material",
+        "EN-GJL-250",
+        "Envelope",
+        "4.26 \u00d7 4.38 \u00d7 0.16 mm"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 13,
+      "referenced_codes": [
+        "GBX-450E",
+        "GBX-SH-114",
+        "GBX-SH-114",
+        "GBX-BC-108",
+        "GBX-BC-108",
+        "GBX-450E"
+      ],
+      "raw_text_snippet": "IPC-GBX-450E rev.B\nItem 17 Layshaft / Countershaft GBX-SH-114\nPart number GBX-SH-114 Category shaft\nQty / assy 2 Sub-asm A3-Layshaft\nMaterial 42CrMo4, hardened Envelope 0.91 \u00d7 0.91 \u00d7 0.11 cm *\n\u2014 Sub-assembly A4-Bearings \u2014\nItem 18 Bearing Retainer Cap GBX-BC-108\nPart number GBX-BC-108 Category bearin"
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 14,
+      "row": [
+        "Part number",
+        "GBX-BRG-123",
+        "Category",
+        "bearing"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 14,
+      "row": [
+        "Qty / assy",
+        "4",
+        "Sub-asm",
+        "A4-Bearings"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 14,
+      "row": [
+        "Material",
+        "Bearing steel 100Cr6",
+        "Envelope",
+        "2.44 \u00d7 2.44 \u00d7 0.55 mm"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 14,
+      "row": [
+        "Part number",
+        "GBX-DS-125",
+        "Category",
+        "fastener"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 14,
+      "row": [
+        "Qty / assy",
+        "2",
+        "Sub-asm",
+        "A4-Bearings"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 14,
+      "row": [
+        "Material",
+        "St 52-3",
+        "Envelope",
+        "6.20 \u00d7 6.22 \u00d7 0.44 mm"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 14,
+      "referenced_codes": [
+        "GBX-450E",
+        "GBX-BRG-123",
+        "GBX-BRG-123",
+        "GBX-DS-125",
+        "GBX-DS-125",
+        "GBX-450E"
+      ],
+      "raw_text_snippet": "IPC-GBX-450E rev.B\nItem 19 Cylindrical Roller Bearing GBX-BRG-123\nPart number GBX-BRG-123 Category bearing\nQty / assy 4 Sub-asm A4-Bearings\nMaterial Bearing steel 100Cr6 Envelope 2.44 \u00d7 2.44 \u00d7 0.55 mm\nItem 20 Distance Sleeve GBX-DS-125\nPart number GBX-DS-125 Category fastener\nQty / assy 2 Sub-asm A4"
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 15,
+      "row": [
+        "Part number",
+        "GBX-NB-129",
+        "Category",
+        "bearing"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 15,
+      "row": [
+        "Qty / assy",
+        "6",
+        "Sub-asm",
+        "A4-Bearings"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 15,
+      "row": [
+        "Material",
+        "100Cr6",
+        "Envelope",
+        "0.64 \u00d7 0.55 \u00d7 2.20 mm"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 15,
+      "row": [
+        "Part number",
+        "GBX-OS-124",
+        "Category",
+        "seal"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 15,
+      "row": [
+        "Qty / assy",
+        "4",
+        "Sub-asm",
+        "A4-Bearings"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 15,
+      "row": [
+        "Material",
+        "NBR / steel",
+        "Envelope",
+        "2.37 \u00d7 2.36 \u00d7 0.33 mm"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 15,
+      "referenced_codes": [
+        "GBX-450E",
+        "GBX-NB-129",
+        "GBX-NB-129",
+        "GBX-OS-124",
+        "GBX-OS-124",
+        "GBX-OS-124-B",
+        "GBX-450E"
+      ],
+      "raw_text_snippet": "IPC-GBX-450E rev.B\nItem 21 Needle Roller Bearing GBX-NB-129\nPart number GBX-NB-129 Category bearing\nQty / assy 6 Sub-asm A4-Bearings\nMaterial 100Cr6 Envelope 0.64 \u00d7 0.55 \u00d7 2.20 mm\nItem 22 Radial Oil Seal (Simmerring) GBX-OS-124\nPart number GBX-OS-124 Category seal\nQty / assy 4 Sub-asm A4-Bearings\nMa"
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 16,
+      "row": [
+        "Part number",
+        "GBX-TW-109",
+        "Category",
+        "fastener"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 16,
+      "row": [
+        "Qty / assy",
+        "2",
+        "Sub-asm",
+        "A4-Bearings"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 16,
+      "row": [
+        "Material",
+        "CuSn8 bronze",
+        "Envelope",
+        "1.06 \u00d7 1.67 \u00d7 1.84 mm"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 16,
+      "row": [
+        "Part number",
+        "GBX-SHM-118",
+        "Category",
+        "fastener"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 16,
+      "row": [
+        "Qty / assy",
+        "1",
+        "Sub-asm",
+        "A5-Fasteners"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 16,
+      "row": [
+        "Material",
+        "Shim steel 1.4310",
+        "Envelope",
+        "3.40 \u00d7 3.40 \u00d7 2.75 mm"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 16,
+      "referenced_codes": [
+        "GBX-450E",
+        "GBX-TW-109",
+        "GBX-TW-109",
+        "GBX-SHM-118",
+        "GBX-SHM-118",
+        "GBX-450E"
+      ],
+      "raw_text_snippet": "IPC-GBX-450E rev.B\nItem 23 Thrust Washer GBX-TW-109\nPart number GBX-TW-109 Category fastener\nQty / assy 2 Sub-asm A4-Bearings\nMaterial CuSn8 bronze Envelope 1.06 \u00d7 1.67 \u00d7 1.84 mm\n\u2014 Sub-assembly A5-Fasteners \u2014\nItem 24 Adjusting Shim / Spacer GBX-SHM-118\nPart number GBX-SHM-118 Category fastener\nQty /"
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 17,
+      "row": [
+        "Part number",
+        "GBX-HXB-122",
+        "Category",
+        "fastener"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 17,
+      "row": [
+        "Qty / assy",
+        "16",
+        "Sub-asm",
+        "A5-Fasteners"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 17,
+      "row": [
+        "Material",
+        "Grade 8.8, zinc",
+        "Envelope",
+        "0.64 \u00d7 0.55 \u00d7 0.20 mm"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 17,
+      "row": [
+        "Part number",
+        "GBX-SR-110",
+        "Category",
+        "fastener"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 17,
+      "row": [
+        "Qty / assy",
+        "2",
+        "Sub-asm",
+        "A5-Fasteners"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 17,
+      "row": [
+        "Material",
+        "Spring steel C67S",
+        "Envelope",
+        "1.80 \u00d7 1.80 \u00d7 1.90 mm"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 17,
+      "referenced_codes": [
+        "GBX-450E",
+        "GBX-HXB-122",
+        "GBX-HXB-122",
+        "GBX-SR-110",
+        "GBX-SR-110",
+        "GBX-450E"
+      ],
+      "raw_text_snippet": "IPC-GBX-450E rev.B\nItem 25 Cover Hex Bolt (DIN 933) GBX-HXB-122\nPart number GBX-HXB-122 Category fastener\nQty / assy 16 Sub-asm A5-Fasteners\nMaterial Grade 8.8, zinc Envelope 0.64 \u00d7 0.55 \u00d7 0.20 mm\nQty per 1998 stock list; verify on unit (see SB-2019-04).\nItem 26 External Snap Ring GBX-SR-110\nPart nu"
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 18,
+      "row": [
+        "Part number",
+        "GBX-FW-112",
+        "Category",
+        "fastener"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 18,
+      "row": [
+        "Qty / assy",
+        "2",
+        "Sub-asm",
+        "A5-Fasteners"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 18,
+      "row": [
+        "Material",
+        "A2-70 stainless",
+        "Envelope",
+        "1.49 \u00d7 1.50 \u00d7 1.25 mm"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 18,
+      "row": [
+        "Part number",
+        "GBX-CL-111",
+        "Category",
+        "fastener"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 18,
+      "row": [
+        "Qty / assy",
+        "2",
+        "Sub-asm",
+        "A5-Fasteners"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 18,
+      "row": [
+        "Material",
+        "Spring steel",
+        "Envelope",
+        "1.18 \u00d7 1.36 \u00d7 0.41 mm"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 18,
+      "referenced_codes": [
+        "GBX-450E",
+        "GBX-FW-112",
+        "GBX-FW-112",
+        "GBX-CL-111",
+        "GBX-CL-111",
+        "GBX-450E"
+      ],
+      "raw_text_snippet": "IPC-GBX-450E rev.B\nItem 27 Flat Washer (DIN 125) GBX-FW-112\nPart number GBX-FW-112 Category fastener\nQty / assy 2 Sub-asm A5-Fasteners\nMaterial A2-70 stainless Envelope 1.49 \u00d7 1.50 \u00d7 1.25 mm\nItem 28 Internal Circlip (DIN 472) GBX-CL-111\nPart number GBX-CL-111 Category fastener\nQty / assy 2 Sub-asm A"
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 19,
+      "row": [
+        "Part number",
+        "GBX-DP-130",
+        "Category",
+        "fastener"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 19,
+      "row": [
+        "Qty / assy",
+        "6",
+        "Sub-asm",
+        "A5-Fasteners"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 19,
+      "row": [
+        "Material",
+        "Hardened steel",
+        "Envelope",
+        "0.64 \u00d7 0.55 \u00d7 1.20 mm"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 19,
+      "row": [
+        "Part number",
+        "GBX-KEY-113",
+        "Category",
+        "fastener"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 19,
+      "row": [
+        "Qty / assy",
+        "2",
+        "Sub-asm",
+        "A5-Fasteners"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 19,
+      "row": [
+        "Material",
+        "C45K",
+        "Envelope",
+        "1.35 \u00d7 1.35 \u00d7 3.81 mm"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 19,
+      "referenced_codes": [
+        "GBX-450E",
+        "GBX-DP-130",
+        "GBX-DP-130",
+        "GBX-KEY-113",
+        "GBX-KEY-113",
+        "GBX-450E"
+      ],
+      "raw_text_snippet": "IPC-GBX-450E rev.B\nItem 29 Locating Dowel Pin (DIN 6325) GBX-DP-130\nPart number GBX-DP-130 Category fastener\nQty / assy 6 Sub-asm A5-Fasteners\nMaterial Hardened steel Envelope 0.64 \u00d7 0.55 \u00d7 1.20 mm\nItem 30 Parallel Shaft Key (DIN 6885) GBX-KEY-113\nPart number GBX-KEY-113 Category fastener\nQty / assy"
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 20,
+      "row": [
+        "Part number",
+        "GBX-SCS-121",
+        "Category",
+        "fastener"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 20,
+      "row": [
+        "Qty / assy",
+        "6",
+        "Sub-asm",
+        "A5-Fasteners"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 20,
+      "row": [
+        "Material",
+        "Grade 12.9",
+        "Envelope",
+        "0.64 \u00d7 0.55 \u00d7 1.50 mm"
+      ]
+    },
+    {
+      "source": "IPC-GBX-450E_parts_catalogue.pdf",
+      "page": 20,
+      "referenced_codes": [
+        "GBX-450E",
+        "GBX-SCS-121",
+        "GBX-SCS-121",
+        "GBX-450E"
+      ],
+      "raw_text_snippet": "IPC-GBX-450E rev.B\nItem 31 Socket Cap Screw (DIN 912) GBX-SCS-121\nPart number GBX-SCS-121 Category fastener\nQty / assy 6 Sub-asm A5-Fasteners\nMaterial Grade 12.9 Envelope 0.64 \u00d7 0.55 \u00d7 1.50 mm\nADLOID GEARWORKS \u00b7 Industrial Drives Division IPC-GBX-450E rev.B Page 20"
+    }
+  ]
+}
