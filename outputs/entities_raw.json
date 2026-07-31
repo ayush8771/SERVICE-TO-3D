@@ -1,0 +1,628 @@
+{
+  "GBX-BH-128": {
+    "entity_id": "GBX-BH-128",
+    "canonical_description": "Bearing Housing Boss",
+    "sources_found_in": [
+      "IPC-GBX-450E_parts_catalogue.pdf"
+    ],
+    "aliases": [],
+    "qty_catalogue": "2",
+    "referenced_in_steps": [],
+    "referenced_in_inspection": [],
+    "referenced_in_work_order": [],
+    "confidence": 0.95,
+    "notes": []
+  },
+  "GBX-BRP-120": {
+    "entity_id": "GBX-BRP-120",
+    "canonical_description": "Breather / Filler Plug",
+    "sources_found_in": [
+      "IPC-GBX-450E_parts_catalogue.pdf"
+    ],
+    "aliases": [
+      "ARM-EV-G14"
+    ],
+    "qty_catalogue": "1",
+    "referenced_in_steps": [],
+    "referenced_in_inspection": [],
+    "referenced_in_work_order": [],
+    "confidence": 0.95,
+    "notes": []
+  },
+  "GBX-HSG-100": {
+    "entity_id": "GBX-HSG-100",
+    "canonical_description": "Gearbox Housing Half",
+    "sources_found_in": [
+      "IPC-GBX-450E_parts_catalogue.pdf"
+    ],
+    "aliases": [],
+    "qty_catalogue": "2",
+    "referenced_in_steps": [],
+    "referenced_in_inspection": [],
+    "referenced_in_work_order": [],
+    "confidence": 0.95,
+    "notes": []
+  },
+  "GBX-MF-126": {
+    "entity_id": "GBX-MF-126",
+    "canonical_description": "Mounting Flange",
+    "sources_found_in": [
+      "IPC-GBX-450E_parts_catalogue.pdf"
+    ],
+    "aliases": [],
+    "qty_catalogue": "2",
+    "referenced_in_steps": [],
+    "referenced_in_inspection": [],
+    "referenced_in_work_order": [],
+    "confidence": 0.95,
+    "notes": []
+  },
+  "GBX-SRP-119": {
+    "entity_id": "GBX-SRP-119",
+    "canonical_description": "Seal Retainer Plate",
+    "sources_found_in": [
+      "IPC-GBX-450E_parts_catalogue.pdf"
+    ],
+    "aliases": [],
+    "qty_catalogue": "2",
+    "referenced_in_steps": [],
+    "referenced_in_inspection": [],
+    "referenced_in_work_order": [],
+    "confidence": 0.95,
+    "notes": []
+  },
+  "GBX-EC-127": {
+    "entity_id": "GBX-EC-127",
+    "canonical_description": "Shaft End Cap",
+    "sources_found_in": [
+      "IPC-GBX-450E_parts_catalogue.pdf"
+    ],
+    "aliases": [],
+    "qty_catalogue": "2",
+    "referenced_in_steps": [],
+    "referenced_in_inspection": [],
+    "referenced_in_work_order": [],
+    "confidence": 0.95,
+    "notes": []
+  },
+  "GBX-GP-104": {
+    "entity_id": "GBX-GP-104",
+    "canonical_description": "Input Pinion",
+    "sources_found_in": [
+      "IPC-GBX-450E_parts_catalogue.pdf"
+    ],
+    "aliases": [],
+    "qty_catalogue": "2",
+    "referenced_in_steps": [],
+    "referenced_in_inspection": [],
+    "referenced_in_work_order": [],
+    "confidence": 0.95,
+    "notes": []
+  },
+  "GBX-ISH-116": {
+    "entity_id": "GBX-ISH-116",
+    "canonical_description": "Input Shaft",
+    "sources_found_in": [
+      "IPC-GBX-450E_parts_catalogue.pdf"
+    ],
+    "aliases": [],
+    "qty_catalogue": "1",
+    "referenced_in_steps": [],
+    "referenced_in_inspection": [],
+    "referenced_in_work_order": [],
+    "confidence": 0.95,
+    "notes": []
+  },
+  "GBX-CF-117": {
+    "entity_id": "GBX-CF-117",
+    "canonical_description": "Coupling Flange",
+    "sources_found_in": [
+      "IPC-GBX-450E_parts_catalogue.pdf"
+    ],
+    "aliases": [],
+    "qty_catalogue": "1",
+    "referenced_in_steps": [],
+    "referenced_in_inspection": [],
+    "referenced_in_work_order": [],
+    "confidence": 0.95,
+    "notes": []
+  },
+  "GBX-OSH-115": {
+    "entity_id": "GBX-OSH-115",
+    "canonical_description": "Output Shaft",
+    "sources_found_in": [
+      "IPC-GBX-450E_parts_catalogue.pdf"
+    ],
+    "aliases": [],
+    "qty_catalogue": "1",
+    "referenced_in_steps": [],
+    "referenced_in_inspection": [],
+    "referenced_in_work_order": [],
+    "confidence": 0.95,
+    "notes": []
+  },
+  "GBX-GLG-102": {
+    "entity_id": "GBX-GLG-102",
+    "canonical_description": "Output Spur Gear",
+    "sources_found_in": [
+      "IPC-GBX-450E_parts_catalogue.pdf"
+    ],
+    "aliases": [],
+    "qty_catalogue": "2",
+    "referenced_in_steps": [],
+    "referenced_in_inspection": [],
+    "referenced_in_work_order": [],
+    "confidence": 0.95,
+    "notes": []
+  },
+  "GBX-GB-105": {
+    "entity_id": "GBX-GB-105",
+    "canonical_description": "Bevel Gear",
+    "sources_found_in": [
+      "IPC-GBX-450E_parts_catalogue.pdf"
+    ],
+    "aliases": [],
+    "qty_catalogue": "2",
+    "referenced_in_steps": [],
+    "referenced_in_inspection": [],
+    "referenced_in_work_order": [],
+    "confidence": 0.95,
+    "notes": []
+  },
+  "GBX-GC-107": {
+    "entity_id": "GBX-GC-107",
+    "canonical_description": "Cluster Gear",
+    "sources_found_in": [
+      "IPC-GBX-450E_parts_catalogue.pdf"
+    ],
+    "aliases": [],
+    "qty_catalogue": "2",
+    "referenced_in_steps": [],
+    "referenced_in_inspection": [],
+    "referenced_in_work_order": [],
+    "confidence": 0.95,
+    "notes": []
+  },
+  "GBX-GH-103": {
+    "entity_id": "GBX-GH-103",
+    "canonical_description": "Helical Reduction Gear",
+    "sources_found_in": [
+      "IPC-GBX-450E_parts_catalogue.pdf",
+      "inspection_log.csv"
+    ],
+    "aliases": [],
+    "qty_catalogue": "6",
+    "referenced_in_steps": [],
+    "referenced_in_inspection": [
+      {
+        "feature": "flank pitting",
+        "disposition": "REPLACE"
+      }
+    ],
+    "referenced_in_work_order": [],
+    "confidence": 0.95,
+    "notes": []
+  },
+  "GBX-GI-106": {
+    "entity_id": "GBX-GI-106",
+    "canonical_description": "Idler Gear",
+    "sources_found_in": [
+      "IPC-GBX-450E_parts_catalogue.pdf"
+    ],
+    "aliases": [
+      "in-house"
+    ],
+    "qty_catalogue": "2",
+    "referenced_in_steps": [],
+    "referenced_in_inspection": [],
+    "referenced_in_work_order": [],
+    "confidence": 0.95,
+    "notes": []
+  },
+  "GBX-GR-101": {
+    "entity_id": "GBX-GR-101",
+    "canonical_description": "Internal Ring Gear",
+    "sources_found_in": [
+      "IPC-GBX-450E_parts_catalogue.pdf"
+    ],
+    "aliases": [],
+    "qty_catalogue": "2",
+    "referenced_in_steps": [],
+    "referenced_in_inspection": [],
+    "referenced_in_work_order": [],
+    "confidence": 0.95,
+    "notes": []
+  },
+  "GBX-SH-114": {
+    "entity_id": "GBX-SH-114",
+    "canonical_description": "Layshaft / Countershaft",
+    "sources_found_in": [
+      "IPC-GBX-450E_parts_catalogue.pdf",
+      "inspection_log.csv"
+    ],
+    "aliases": [],
+    "qty_catalogue": "2",
+    "referenced_in_steps": [],
+    "referenced_in_inspection": [
+      {
+        "feature": "journal dia",
+        "disposition": "PASS"
+      }
+    ],
+    "referenced_in_work_order": [],
+    "confidence": 0.95,
+    "notes": []
+  },
+  "GBX-BC-108": {
+    "entity_id": "GBX-BC-108",
+    "canonical_description": "Bearing Retainer Cap",
+    "sources_found_in": [
+      "IPC-GBX-450E_parts_catalogue.pdf",
+      "service_steps.json",
+      "inspection_log.csv"
+    ],
+    "aliases": [],
+    "qty_catalogue": "4",
+    "referenced_in_steps": [
+      "20-10"
+    ],
+    "referenced_in_inspection": [
+      {
+        "feature": "flatness",
+        "disposition": "PASS"
+      }
+    ],
+    "referenced_in_work_order": [],
+    "confidence": 0.95,
+    "notes": []
+  },
+  "GBX-BRG-123": {
+    "entity_id": "GBX-BRG-123",
+    "canonical_description": "Cylindrical Roller Bearing",
+    "sources_found_in": [
+      "IPC-GBX-450E_parts_catalogue.pdf",
+      "inspection_log.csv"
+    ],
+    "aliases": [
+      "KGW-NU204-E"
+    ],
+    "qty_catalogue": "4",
+    "referenced_in_steps": [],
+    "referenced_in_inspection": [
+      {
+        "feature": "radial play",
+        "disposition": "NOT MEASURED"
+      }
+    ],
+    "referenced_in_work_order": [],
+    "confidence": 0.95,
+    "notes": []
+  },
+  "GBX-DS-125": {
+    "entity_id": "GBX-DS-125",
+    "canonical_description": "Distance Sleeve",
+    "sources_found_in": [
+      "IPC-GBX-450E_parts_catalogue.pdf",
+      "work_order_WO-7741.txt"
+    ],
+    "aliases": [
+      "GLT-DH20-28"
+    ],
+    "qty_catalogue": "2",
+    "referenced_in_steps": [],
+    "referenced_in_inspection": [],
+    "referenced_in_work_order": [
+      {
+        "qty": "2",
+        "disposition": "inspected, re-used -- qty 0 billed  [30-70]"
+      }
+    ],
+    "confidence": 0.95,
+    "notes": []
+  },
+  "GBX-NB-129": {
+    "entity_id": "GBX-NB-129",
+    "canonical_description": "Needle Roller Bearing",
+    "sources_found_in": [
+      "IPC-GBX-450E_parts_catalogue.pdf",
+      "inspection_log.csv",
+      "work_order_WO-7741.txt"
+    ],
+    "aliases": [
+      "KGW-HK1210"
+    ],
+    "qty_catalogue": "6",
+    "referenced_in_steps": [],
+    "referenced_in_inspection": [
+      {
+        "feature": "cage wear",
+        "disposition": "REPLACE"
+      }
+    ],
+    "referenced_in_work_order": [
+      {
+        "qty": "6",
+        "disposition": "all cage positions renewed          [30-60]"
+      }
+    ],
+    "confidence": 0.95,
+    "notes": []
+  },
+  "GBX-OS-124": {
+    "entity_id": "GBX-OS-124",
+    "canonical_description": "Radial Oil Seal (Simmerring)",
+    "sources_found_in": [
+      "IPC-GBX-450E_parts_catalogue.pdf",
+      "inspection_log.csv"
+    ],
+    "aliases": [
+      "DFT-BA-20x35x7-NBR"
+    ],
+    "qty_catalogue": "4",
+    "referenced_in_steps": [],
+    "referenced_in_inspection": [
+      {
+        "feature": "bore fit",
+        "disposition": "FAIL-oversize"
+      }
+    ],
+    "referenced_in_work_order": [],
+    "confidence": 0.95,
+    "notes": []
+  },
+  "GBX-TW-109": {
+    "entity_id": "GBX-TW-109",
+    "canonical_description": "Thrust Washer",
+    "sources_found_in": [
+      "IPC-GBX-450E_parts_catalogue.pdf",
+      "work_order_WO-7741.txt"
+    ],
+    "aliases": [
+      "GLT-AS2035-CuSn8"
+    ],
+    "qty_catalogue": "2",
+    "referenced_in_steps": [],
+    "referenced_in_inspection": [],
+    "referenced_in_work_order": [
+      {
+        "qty": "2",
+        "disposition": "renewed on reassembly               [20-60]"
+      }
+    ],
+    "confidence": 0.95,
+    "notes": []
+  },
+  "GBX-SHM-118": {
+    "entity_id": "GBX-SHM-118",
+    "canonical_description": "Adjusting Shim / Spacer",
+    "sources_found_in": [
+      "IPC-GBX-450E_parts_catalogue.pdf",
+      "inspection_log.csv",
+      "work_order_WO-7741.txt"
+    ],
+    "aliases": [
+      "GLT-PS20-015"
+    ],
+    "qty_catalogue": "1",
+    "referenced_in_steps": [],
+    "referenced_in_inspection": [
+      {
+        "feature": "thickness",
+        "disposition": "PASS"
+      }
+    ],
+    "referenced_in_work_order": [
+      {
+        "qty": "1",
+        "disposition": "end-float shim, 0.15 mm selected    [30-70]"
+      }
+    ],
+    "confidence": 0.95,
+    "notes": []
+  },
+  "GBX-HXB-122": {
+    "entity_id": "GBX-HXB-122",
+    "canonical_description": "Cover Hex Bolt (DIN 933)",
+    "sources_found_in": [
+      "IPC-GBX-450E_parts_catalogue.pdf",
+      "inspection_log.csv",
+      "work_order_WO-7741.txt"
+    ],
+    "aliases": [
+      "NRM-933-M6x16-8.8",
+      "NRM-601-M6-OBS"
+    ],
+    "qty_catalogue": "16",
+    "referenced_in_steps": [],
+    "referenced_in_inspection": [
+      {
+        "feature": "thread M6x1",
+        "disposition": "PASS"
+      },
+      {
+        "feature": "head A/F",
+        "disposition": "PASS"
+      }
+    ],
+    "referenced_in_work_order": [
+      {
+        "qty": "15",
+        "disposition": "renewed where disturbed             [10-20, 20-30, 30-10]"
+      }
+    ],
+    "confidence": 0.95,
+    "notes": []
+  },
+  "GBX-SR-110": {
+    "entity_id": "GBX-SR-110",
+    "canonical_description": "External Snap Ring",
+    "sources_found_in": [
+      "IPC-GBX-450E_parts_catalogue.pdf",
+      "work_order_WO-7741.txt"
+    ],
+    "aliases": [
+      "NRM-471-A20"
+    ],
+    "qty_catalogue": "2",
+    "referenced_in_steps": [],
+    "referenced_in_inspection": [],
+    "referenced_in_work_order": [
+      {
+        "qty": "2",
+        "disposition": "renewed                             [30-70]"
+      }
+    ],
+    "confidence": 0.95,
+    "notes": []
+  },
+  "GBX-FW-112": {
+    "entity_id": "GBX-FW-112",
+    "canonical_description": "Flat Washer (DIN 125)",
+    "sources_found_in": [
+      "IPC-GBX-450E_parts_catalogue.pdf"
+    ],
+    "aliases": [
+      "NRM-125-A5.3"
+    ],
+    "qty_catalogue": "2",
+    "referenced_in_steps": [],
+    "referenced_in_inspection": [],
+    "referenced_in_work_order": [],
+    "confidence": 0.95,
+    "notes": []
+  },
+  "GBX-CL-111": {
+    "entity_id": "GBX-CL-111",
+    "canonical_description": "Internal Circlip (DIN 472)",
+    "sources_found_in": [
+      "IPC-GBX-450E_parts_catalogue.pdf",
+      "work_order_WO-7741.txt"
+    ],
+    "aliases": [
+      "NRM-472-I22"
+    ],
+    "qty_catalogue": "2",
+    "referenced_in_steps": [],
+    "referenced_in_inspection": [],
+    "referenced_in_work_order": [
+      {
+        "qty": "2",
+        "disposition": "renewed on reassembly               [20-60]"
+      }
+    ],
+    "confidence": 0.95,
+    "notes": []
+  },
+  "GBX-DP-130": {
+    "entity_id": "GBX-DP-130",
+    "canonical_description": "Locating Dowel Pin (DIN 6325)",
+    "sources_found_in": [
+      "IPC-GBX-450E_parts_catalogue.pdf",
+      "inspection_log.csv"
+    ],
+    "aliases": [
+      "NRM-6325-4m6x12"
+    ],
+    "qty_catalogue": "6",
+    "referenced_in_steps": [],
+    "referenced_in_inspection": [
+      {
+        "feature": "dia h6",
+        "disposition": "PASS"
+      }
+    ],
+    "referenced_in_work_order": [],
+    "confidence": 0.95,
+    "notes": []
+  },
+  "GBX-KEY-113": {
+    "entity_id": "GBX-KEY-113",
+    "canonical_description": "Parallel Shaft Key (DIN 6885)",
+    "sources_found_in": [
+      "IPC-GBX-450E_parts_catalogue.pdf"
+    ],
+    "aliases": [
+      "NRM-6885-A5x5x14"
+    ],
+    "qty_catalogue": "2",
+    "referenced_in_steps": [],
+    "referenced_in_inspection": [],
+    "referenced_in_work_order": [],
+    "confidence": 0.95,
+    "notes": []
+  },
+  "GBX-SCS-121": {
+    "entity_id": "GBX-SCS-121",
+    "canonical_description": "Socket Cap Screw (DIN 912)",
+    "sources_found_in": [
+      "IPC-GBX-450E_parts_catalogue.pdf",
+      "inspection_log.csv",
+      "work_order_WO-7741.txt"
+    ],
+    "aliases": [
+      "NRM-912-M5x20-12.9"
+    ],
+    "qty_catalogue": "6",
+    "referenced_in_steps": [],
+    "referenced_in_inspection": [
+      {
+        "feature": "preload",
+        "disposition": "PASS"
+      }
+    ],
+    "referenced_in_work_order": [
+      {
+        "qty": "6",
+        "disposition": "renewed                             [30-20]"
+      }
+    ],
+    "confidence": 0.95,
+    "notes": []
+  },
+  "GBX-SG-131": {
+    "entity_id": "GBX-SG-131",
+    "canonical_description": "Oil Level Sight Glass",
+    "sources_found_in": [
+      "IPC-GBX-450E_parts_catalogue.pdf"
+    ],
+    "aliases": [
+      "N/A"
+    ],
+    "qty_catalogue": "0",
+    "referenced_in_steps": [],
+    "referenced_in_inspection": [],
+    "referenced_in_work_order": [],
+    "confidence": 0.95,
+    "notes": []
+  },
+  "GBX-OS-124-B": {
+    "entity_id": "GBX-OS-124-B",
+    "canonical_description": null,
+    "sources_found_in": [
+      "service_steps.json",
+      "inspection_log.csv",
+      "work_order_WO-7741.txt"
+    ],
+    "aliases": [],
+    "referenced_in_steps": [
+      "20-40"
+    ],
+    "referenced_in_inspection": [
+      {
+        "feature": "lip wear",
+        "disposition": "REPLACE"
+      }
+    ],
+    "referenced_in_work_order": [
+      {
+        "qty": "1",
+        "disposition": "fitted, drive-end front bore        [20-40]"
+      }
+    ],
+    "confidence": 0.4,
+    "notes": [
+      "found only via direct code mention in step text, not in catalogue",
+      "fuzzy candidate match: GBX-OS-124 (score 90.9090909090909) - NOT auto-merged, needs review"
+    ]
+  }
+}

@@ -1,0 +1,507 @@
+{
+  "GBX-BH-128": {
+    "oem_pn": "GBX-BH-128",
+    "description": "Bearing Housing Boss",
+    "sub_asm": "A0-Housing",
+    "qty_per_assy_catalogue": "2",
+    "material": "Cast iron",
+    "envelope_mm": {
+      "dims_mm": [
+        4.26,
+        4.38,
+        0.06
+      ],
+      "was_cm_corrected": false
+    },
+    "category": "structural"
+  },
+  "GBX-BRP-120": {
+    "oem_pn": "GBX-BRP-120",
+    "description": "Breather / Filler Plug",
+    "sub_asm": "A0-Housing",
+    "qty_per_assy_catalogue": "1",
+    "material": "Brass CW614N",
+    "envelope_mm": {
+      "dims_mm": [
+        1.25,
+        3.0,
+        1.37
+      ],
+      "was_cm_corrected": false
+    },
+    "category": "fastener"
+  },
+  "GBX-HSG-100": {
+    "oem_pn": "GBX-HSG-100",
+    "description": "Gearbox Housing Half",
+    "sub_asm": "A0-Housing",
+    "qty_per_assy_catalogue": "2",
+    "material": "Cast iron GG-25",
+    "envelope_mm": {
+      "dims_mm": [
+        1.37,
+        1.37,
+        14.85
+      ],
+      "was_cm_corrected": false
+    },
+    "category": "structural"
+  },
+  "GBX-MF-126": {
+    "oem_pn": "GBX-MF-126",
+    "description": "Mounting Flange",
+    "sub_asm": "A0-Housing",
+    "qty_per_assy_catalogue": "2",
+    "material": "EN-GJS-500",
+    "envelope_mm": {
+      "dims_mm": [
+        4.5,
+        4.5,
+        0.62
+      ],
+      "was_cm_corrected": false
+    },
+    "category": "structural"
+  },
+  "GBX-SRP-119": {
+    "oem_pn": "GBX-SRP-119",
+    "description": "Seal Retainer Plate",
+    "sub_asm": "A0-Housing",
+    "qty_per_assy_catalogue": "2",
+    "material": "S235JR",
+    "envelope_mm": {
+      "dims_mm": [
+        2.99,
+        0.79,
+        3.0
+      ],
+      "was_cm_corrected": false
+    },
+    "category": "structural"
+  },
+  "GBX-EC-127": {
+    "oem_pn": "GBX-EC-127",
+    "description": "Shaft End Cap",
+    "sub_asm": "A0-Housing",
+    "qty_per_assy_catalogue": "2",
+    "material": "EN-GJL-200",
+    "envelope_mm": {
+      "dims_mm": [
+        1.62,
+        1.62,
+        4.51
+      ],
+      "was_cm_corrected": false
+    },
+    "category": "structural"
+  },
+  "GBX-GP-104": {
+    "oem_pn": "GBX-GP-104",
+    "description": "Input Pinion",
+    "sub_asm": "A1-Input",
+    "qty_per_assy_catalogue": "2",
+    "material": "20MnCr5, ground",
+    "envelope_mm": {
+      "dims_mm": [
+        5.0,
+        5.0,
+        1.68
+      ],
+      "was_cm_corrected": false
+    },
+    "category": "gear"
+  },
+  "GBX-ISH-116": {
+    "oem_pn": "GBX-ISH-116",
+    "description": "Input Shaft",
+    "sub_asm": "A1-Input",
+    "qty_per_assy_catalogue": "1",
+    "material": "20MnCr5",
+    "envelope_mm": {
+      "dims_mm": [
+        1.25,
+        1.36,
+        6.91
+      ],
+      "was_cm_corrected": false
+    },
+    "category": "shaft"
+  },
+  "GBX-CF-117": {
+    "oem_pn": "GBX-CF-117",
+    "description": "Coupling Flange",
+    "sub_asm": "A2-Output",
+    "qty_per_assy_catalogue": "1",
+    "material": "C45",
+    "envelope_mm": {
+      "dims_mm": [
+        2.2,
+        2.2,
+        3.92
+      ],
+      "was_cm_corrected": false
+    },
+    "category": "structural"
+  },
+  "GBX-OSH-115": {
+    "oem_pn": "GBX-OSH-115",
+    "description": "Output Shaft",
+    "sub_asm": "A2-Output",
+    "qty_per_assy_catalogue": "1",
+    "material": "42CrMo4, hardened",
+    "envelope_mm": {
+      "dims_mm": [
+        2.3000000000000003,
+        2.3000000000000003,
+        10.5
+      ],
+      "was_cm_corrected": true
+    },
+    "category": "shaft"
+  },
+  "GBX-GLG-102": {
+    "oem_pn": "GBX-GLG-102",
+    "description": "Output Spur Gear",
+    "sub_asm": "A2-Output",
+    "qty_per_assy_catalogue": "2",
+    "material": "16MnCr5, carburized",
+    "envelope_mm": {
+      "dims_mm": [
+        2.44,
+        2.44,
+        0.75
+      ],
+      "was_cm_corrected": false
+    },
+    "category": "gear"
+  },
+  "GBX-GB-105": {
+    "oem_pn": "GBX-GB-105",
+    "description": "Bevel Gear",
+    "sub_asm": "A3-Layshaft",
+    "qty_per_assy_catalogue": "2",
+    "material": "17NiCrMo6-4",
+    "envelope_mm": {
+      "dims_mm": [
+        4.71,
+        3.89,
+        1.35
+      ],
+      "was_cm_corrected": false
+    },
+    "category": "gear"
+  },
+  "GBX-GC-107": {
+    "oem_pn": "GBX-GC-107",
+    "description": "Cluster Gear",
+    "sub_asm": "A3-Layshaft",
+    "qty_per_assy_catalogue": "2",
+    "material": "18CrNiMo7-6",
+    "envelope_mm": {
+      "dims_mm": [
+        1.0,
+        1.15,
+        6.44
+      ],
+      "was_cm_corrected": false
+    },
+    "category": "gear"
+  },
+  "GBX-GH-103": {
+    "oem_pn": "GBX-GH-103",
+    "description": "Helical Reduction Gear",
+    "sub_asm": "A3-Layshaft",
+    "qty_per_assy_catalogue": "6",
+    "material": "16MnCr5, carburized",
+    "envelope_mm": {
+      "dims_mm": [
+        3.0,
+        3.0,
+        0.78
+      ],
+      "was_cm_corrected": false
+    },
+    "category": "gear"
+  },
+  "GBX-GI-106": {
+    "oem_pn": "GBX-GI-106",
+    "description": "Idler Gear",
+    "sub_asm": "A3-Layshaft",
+    "qty_per_assy_catalogue": "2",
+    "material": "16MnCr5",
+    "envelope_mm": {
+      "dims_mm": [
+        4.61,
+        5.44,
+        2.48
+      ],
+      "was_cm_corrected": false
+    },
+    "category": "gear"
+  },
+  "GBX-GR-101": {
+    "oem_pn": "GBX-GR-101",
+    "description": "Internal Ring Gear",
+    "sub_asm": "A3-Layshaft",
+    "qty_per_assy_catalogue": "2",
+    "material": "18CrNiMo7-6,\ncase-hardened",
+    "envelope_mm": {
+      "dims_mm": [
+        2.06,
+        2.06,
+        0.6
+      ],
+      "was_cm_corrected": false
+    },
+    "category": "gear"
+  },
+  "GBX-SH-114": {
+    "oem_pn": "GBX-SH-114",
+    "description": "Layshaft / Countershaft",
+    "sub_asm": "A3-Layshaft",
+    "qty_per_assy_catalogue": "2",
+    "material": "42CrMo4, hardened",
+    "envelope_mm": {
+      "dims_mm": [
+        9.1,
+        9.1,
+        1.1
+      ],
+      "was_cm_corrected": true
+    },
+    "category": "shaft"
+  },
+  "GBX-BC-108": {
+    "oem_pn": "GBX-BC-108",
+    "description": "Bearing Retainer Cap",
+    "sub_asm": "A4-Bearings",
+    "qty_per_assy_catalogue": "4",
+    "material": "EN-GJL-250",
+    "envelope_mm": {
+      "dims_mm": [
+        4.26,
+        4.38,
+        0.16
+      ],
+      "was_cm_corrected": false
+    },
+    "category": "bearing"
+  },
+  "GBX-BRG-123": {
+    "oem_pn": "GBX-BRG-123",
+    "description": "Cylindrical Roller Bearing",
+    "sub_asm": "A4-Bearings",
+    "qty_per_assy_catalogue": "4",
+    "material": "Bearing steel 100Cr6",
+    "envelope_mm": {
+      "dims_mm": [
+        2.44,
+        2.44,
+        0.55
+      ],
+      "was_cm_corrected": false
+    },
+    "category": "bearing"
+  },
+  "GBX-DS-125": {
+    "oem_pn": "GBX-DS-125",
+    "description": "Distance Sleeve",
+    "sub_asm": "A4-Bearings",
+    "qty_per_assy_catalogue": "2",
+    "material": "St 52-3",
+    "envelope_mm": {
+      "dims_mm": [
+        6.2,
+        6.22,
+        0.44
+      ],
+      "was_cm_corrected": false
+    },
+    "category": "fastener"
+  },
+  "GBX-NB-129": {
+    "oem_pn": "GBX-NB-129",
+    "description": "Needle Roller Bearing",
+    "sub_asm": "A4-Bearings",
+    "qty_per_assy_catalogue": "6",
+    "material": "100Cr6",
+    "envelope_mm": {
+      "dims_mm": [
+        0.64,
+        0.55,
+        2.2
+      ],
+      "was_cm_corrected": false
+    },
+    "category": "bearing"
+  },
+  "GBX-OS-124": {
+    "oem_pn": "GBX-OS-124",
+    "description": "Radial Oil Seal (Simmerring)",
+    "sub_asm": "A4-Bearings",
+    "qty_per_assy_catalogue": "4",
+    "material": "NBR / steel",
+    "envelope_mm": {
+      "dims_mm": [
+        2.37,
+        2.36,
+        0.33
+      ],
+      "was_cm_corrected": false
+    },
+    "category": "seal"
+  },
+  "GBX-TW-109": {
+    "oem_pn": "GBX-TW-109",
+    "description": "Thrust Washer",
+    "sub_asm": "A4-Bearings",
+    "qty_per_assy_catalogue": "2",
+    "material": "CuSn8 bronze",
+    "envelope_mm": {
+      "dims_mm": [
+        1.06,
+        1.67,
+        1.84
+      ],
+      "was_cm_corrected": false
+    },
+    "category": "fastener"
+  },
+  "GBX-SHM-118": {
+    "oem_pn": "GBX-SHM-118",
+    "description": "Adjusting Shim / Spacer",
+    "sub_asm": "A5-Fasteners",
+    "qty_per_assy_catalogue": "1",
+    "material": "Shim steel 1.4310",
+    "envelope_mm": {
+      "dims_mm": [
+        3.4,
+        3.4,
+        2.75
+      ],
+      "was_cm_corrected": false
+    },
+    "category": "fastener"
+  },
+  "GBX-HXB-122": {
+    "oem_pn": "GBX-HXB-122",
+    "description": "Cover Hex Bolt (DIN 933)",
+    "sub_asm": "A5-Fasteners",
+    "qty_per_assy_catalogue": "16",
+    "material": "Grade 8.8, zinc",
+    "envelope_mm": {
+      "dims_mm": [
+        0.64,
+        0.55,
+        0.2
+      ],
+      "was_cm_corrected": false
+    },
+    "category": "fastener"
+  },
+  "GBX-SR-110": {
+    "oem_pn": "GBX-SR-110",
+    "description": "External Snap Ring",
+    "sub_asm": "A5-Fasteners",
+    "qty_per_assy_catalogue": "2",
+    "material": "Spring steel C67S",
+    "envelope_mm": {
+      "dims_mm": [
+        1.8,
+        1.8,
+        1.9
+      ],
+      "was_cm_corrected": false
+    },
+    "category": "fastener"
+  },
+  "GBX-FW-112": {
+    "oem_pn": "GBX-FW-112",
+    "description": "Flat Washer (DIN 125)",
+    "sub_asm": "A5-Fasteners",
+    "qty_per_assy_catalogue": "2",
+    "material": "A2-70 stainless",
+    "envelope_mm": {
+      "dims_mm": [
+        1.49,
+        1.5,
+        1.25
+      ],
+      "was_cm_corrected": false
+    },
+    "category": "fastener"
+  },
+  "GBX-CL-111": {
+    "oem_pn": "GBX-CL-111",
+    "description": "Internal Circlip (DIN 472)",
+    "sub_asm": "A5-Fasteners",
+    "qty_per_assy_catalogue": "2",
+    "material": "Spring steel",
+    "envelope_mm": {
+      "dims_mm": [
+        1.18,
+        1.36,
+        0.41
+      ],
+      "was_cm_corrected": false
+    },
+    "category": "fastener"
+  },
+  "GBX-DP-130": {
+    "oem_pn": "GBX-DP-130",
+    "description": "Locating Dowel Pin (DIN 6325)",
+    "sub_asm": "A5-Fasteners",
+    "qty_per_assy_catalogue": "6",
+    "material": "Hardened steel",
+    "envelope_mm": {
+      "dims_mm": [
+        0.64,
+        0.55,
+        1.2
+      ],
+      "was_cm_corrected": false
+    },
+    "category": "fastener"
+  },
+  "GBX-KEY-113": {
+    "oem_pn": "GBX-KEY-113",
+    "description": "Parallel Shaft Key (DIN 6885)",
+    "sub_asm": "A5-Fasteners",
+    "qty_per_assy_catalogue": "2",
+    "material": "C45K",
+    "envelope_mm": {
+      "dims_mm": [
+        1.35,
+        1.35,
+        3.81
+      ],
+      "was_cm_corrected": false
+    },
+    "category": "fastener"
+  },
+  "GBX-SCS-121": {
+    "oem_pn": "GBX-SCS-121",
+    "description": "Socket Cap Screw (DIN 912)",
+    "sub_asm": "A5-Fasteners",
+    "qty_per_assy_catalogue": "6",
+    "material": "Grade 12.9",
+    "envelope_mm": {
+      "dims_mm": [
+        0.64,
+        0.55,
+        1.5
+      ],
+      "was_cm_corrected": false
+    },
+    "category": "fastener"
+  },
+  "GBX-SG-131": {
+    "oem_pn": "GBX-SG-131",
+    "description": "Oil Level Sight Glass",
+    "sub_asm": "A0-Housing",
+    "qty_per_assy_catalogue": "0",
+    "material": "NOT FITTED (-E)",
+    "envelope_mm": null,
+    "category": null
+  }
+}
