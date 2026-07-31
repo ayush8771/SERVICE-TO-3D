@@ -137,6 +137,3 @@ The current run produces a final resolved entity count of `32` with `0` low-conf
 - `GBX-HXB-122` quantity was corrected from `16` to `18` by the bulletin,
 - `GBX-OS-124-B` was merged into `GBX-OS-124` as a supersession alias,
 - and two obviously junk inspection rows were excluded.
-
-## Demo video
-A demo link can be added here when available.
