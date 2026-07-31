@@ -15,7 +15,6 @@ data/
 outputs/
 *.pdf
 *.csv
-*.json
 *.txt
 
 # Keep the required dependency file tracked
