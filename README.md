@@ -72,23 +72,6 @@ python scripts/05_report.py
 python scripts/06_print_summary.py
 ```
 
-### Bonus 3D GLB re-structuring trail
-A separate GLB helper is included for the visual mapping extension:
-
-```bash
-python scripts/restructure_glb.py <in.glb> <mapping.json> <out.glb>
-```
-
-What it does:
-- takes a flat/chaotic GLB as input,
-- reads the final mapping JSON,
-- maps mesh nodes to step-level groups,
-- renames the mesh nodes to step-aware names,
-- re-parents them under a clean hierarchy such as `Procedure 10 -> Step 10-20 -> <mesh nodes>`,
-- keeps any unmapped geometry under an `Unmapped` bucket so nothing silently disappears.
-
-This is a supporting visualization trail and is separate from the core part-mapping pipeline.
-
 ### Final generated outputs
 - `outputs/parsed_sources.json` — raw extracted mentions from all sources
 - `outputs/catalogue_parts.json` — normalized catalogue part dictionary
