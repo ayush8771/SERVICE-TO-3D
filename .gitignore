@@ -1,0 +1,22 @@
+# Python virtual environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment and local runtime files
+.env
+*.log
+.DS_Store
+
+# Large/generated project assets
+data/
+outputs/
+*.pdf
+*.csv
+*.json
+*.txt
+
+# Keep the required dependency file tracked
+!requirements.txt
